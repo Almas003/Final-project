@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  </head>
+  <body style="background-color: #C8E3D4;">
+
+
+    <form method="post">
+      <div style="width: 50%; margin: 50px; display: flex; flex-direction: column;" class="input-group">
+        <div>{{ info }}</div>
+        <div>
+          <span class="input-group-text" style="width: 200px;">Username and password</span>
+          <input type="text" aria-label="First name" class="form-control" name="username">
+          <input type="password" aria-label="Last name" class="form-control" name="password">
+          <input class="btn btn-primary" type="submit" value="Submit">
+        </div>
+        <div>
+          <a href="/" style="margin-right: 10px;">Main Page</a>
+          <a href="/registration">Registration</a>
+        </div>
+      </div>
+    </form>
+
+  </body>
+</html>
